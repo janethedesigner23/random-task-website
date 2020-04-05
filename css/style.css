@@ -48,19 +48,28 @@ button {
 }
  /* Header */
 
+.bg {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    background-color: #EDEFF1;
+}
+
 .main-navigation {
     width: 1200px;
     height: 32px;
-    margin-top: 30px;
+    margin: 0 auto;
 }
 
 /* Main-screen */
 
 .main-screen {
-    width: 1130px;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .content {
+    width: 1130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
