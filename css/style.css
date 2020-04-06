@@ -31,6 +31,16 @@ a {
 h1 {
     margin: 0;
     font-family: 'PT Sans', sans-serif;
+    font-size: 38px;
+    line-height: 44px;
+    font-weight: 700;
+    letter-spacing: 0.17px;
+    color: #000000;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
     font-size: 47px;
     line-height: 48px;
     font-weight: 700;
@@ -46,7 +56,8 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
- /* Header */
+
+/* Header */
 
 .bg {
     width: 100%;
@@ -65,32 +76,33 @@ button {
 
 .main-screen {
     width: 1200px;
-    margin: 0 auto;
+    margin: 118px auto 0;
 }
 
 .content {
-    width: 1130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1130px;
+    margin-bottom: 70px;
 }
 
 .main-header {
+    margin-bottom: 20px;
     font-family: 'PT Sans', sans-serif;
     font-size: 58px;
     font-weight: 700;
     line-height: 64px;
     color: #333333;
-    margin-bottom: 25px;
 }
 
 .subtitle {
+    margin-bottom: 40px;
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 29px;
     color: #333333;
-    margin-bottom: 40px;
 }
 
 .button {
@@ -123,26 +135,195 @@ button {
 }
 
 .main-image {
-     width: 362px;
-     height: 420px;
+    width: 362px;
+    height: 420px;
+}
+
+.ref {
+    height: 70px;
 }
 
 .ref p {
+    margin-bottom: 10px;
     font-family: 'PT Sans', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 29px;
     color: #333333;
-    margin-bottom: 10px;
 }
 
 /* Steps */
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.how-to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1046px;
+    margin: 175px 0;
+    padding: 0 40px;
+}
 
 .steps-img {
     width: 394px;
     height: 450px;
 }
 
+.tag {
+    display: inline-block;
+    width: auto;
+    height: 26px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    background-color: #FFCC00;
+    border-radius: 2px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: 0.83px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.search .tag {
+    background-color: #2FAD4A;
+    color: #ffffff;
+}
+
+.result .tag {
+    background-color: #FFAA0C;
+    color: #ffffff;
+}
+
+.steps {
+    width: 420px;
+    margin-bottom: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #333333;
+}
+
+.display {
+    width: 390px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333333;
+}
+
 /* Callout */
 
+.callout-screen .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.callout {
+    margin-bottom: 50px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 52px;
+    text-align: center;
+    color: #333333;
+}
+
+.emoji-row {
+    display: flex;
+    justify-content: space-between;
+
+    width: 310px;
+    margin-bottom: 66px;
+}
+
+.emoji {
+    width: 70px;
+    height: 70px;
+}
+
+.center .display {
+    margin-top: 15px;
+
+    text-align: center;
+}
+
 /* Footer */
+
+.footer {
+    margin: 140px auto 30px;
+}
+
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    height: 44px;
+}
+
+.copyright-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #333333;
+}
+
+.disclaimer {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #9BA2AB; 
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    height: 44px;
+}
+
+.author {
+    display: flex;
+}
+
+.right-side .role {
+    margin-right: 5px;
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #9BA2AB;
+}
+
+.right-side .name {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #333333;
+}
