@@ -11,24 +11,26 @@
   </head>
 
   <body>
-
     <main class="main">
-      <div class="bg">
-        <header class="header">
-          <nav class="main-navigation">
-            <img src="./source/logo/logo_full.svg" alt="Logo Random Task, push to go to the main page">
-          </nav>
-        </header>
-
+      <div class="main-screen-bg">
         <div class="main-screen">
+          <div class="header">
+            <nav class="main-navigation">
+              <img src="./source/logo/logo_full.svg" alt="Logo Random Task, push to go to the main page">
+            </nav>
+          </div>
+
           <div class="content">
-            <div class="text">
+            <div class="how-to-description">
               <h1 class="main-header">For those<br>who likes it random</h1>
               <p class="subtitle">A Chrome extension for choosing tasks in
                 todoist</p>
-              <a
-                href="https://chrome.google.com/webstore/detail/random-task/npgmdhfbmhiffncedifcddbmijccdccb"
-                class="button">Download for free</a>
+              <a href="https://chrome.google.com/webstore/detail/random-task/npgmdhfbmhiffncedifcddbmijccdccb" class="button" target="_blank">
+                <div>
+                  <p>Download for free</p>
+                  <img src="./source/logo/chrome.svg" alt="Google chrome logo">
+                </div>
+              </a>
             </div>
             <div class="screencast">
               <img src="./source/screens/main.png" alt="A plugin video"
@@ -46,28 +48,28 @@
       <div class="container">
         <section class="how-to open">
           <img src="./source/screens/screen_1.png" alt="Todoist" class="steps-img">
-          <div class="text">
+          <div class="how-to-description">
             <p class="tag">How it works</p>
             <h2 class="steps">Open your todoist list and start a plugin</h2>
-            <p class="display">It can be your weekly plan or any project.</p>
+            <p class="text">It can be your weekly plan or any project.</p>
           </div>
         </section>
 
         <section class="how-to search">
           <img src="./source/screens/screen_2.png" alt="Searching process" class="steps-img">
-          <div class="text">
+          <div class="how-to-description">
             <p class="tag">How it works</p>
             <h2 class="steps">Push the button and wait for the magic to happen</h2>
-            <p class="display">Random task will begin to choose a task for you.</p>
+            <p class="text">Random task will begin to choose a task for you.</p>
           </div>
         </section>
 
         <section class="how-to result">
           <img src="./source/screens/screen_3.png" alt="Task found" class="steps-img">
-          <div class="text">
+          <div class="how-to-description">
             <p class="tag">How it works</p>
             <h2 class="steps">Your task is chosen!</h2>
-            <p class="display">Now you can start to work. Don’t like the task?
+            <p class="text">Now you can start to work. Don’t like the task?
               Push Try again.</p>
           </div>
         </section>
@@ -84,36 +86,39 @@
             <img src="./source/emoji/bunny.png" alt="bunny emoji"
               class="emoji">
           </div>
-          <a
-            href="https://chrome.google.com/webstore/detail/random-task/npgmdhfbmhiffncedifcddbmijccdccb"
-            class="button">Get the plugin from Chrome</a>
-          <p class="display">It's free</p>
+          <a href="https://chrome.google.com/webstore/detail/random-task/npgmdhfbmhiffncedifcddbmijccdccb" class="button" target="_blank">
+            <div>
+              <p>Get the plugin from Chrome</p>
+              <img src="./source/logo/chrome.svg" alt="Google chrome logo">
+            </div>
+          </a>
+          <p class="text text-center">It's free</p>
         </section>
       </div>
-    </main>
 
-    <footer class="main-footer">
-      <div class="container footer">
-        <img src="./source/logo/logo_small.svg" alt="Random task logo"
-          class="footer-logo">
-        <section class="copyright">
-          <div class="left-side">
-            <p class="copyright-text">© 2020 Random Task</p>
-            <p class="disclaimer">We do not distribute or sell your data because
-              we simply don’t have it.</p>
-          </div>
-          <div class="right-side">
-            <div class="author">
-              <p class="role">Designer & Developer:</p>
-              <p class="name">Evgeniya Iakovleva</p>
+      <footer class="main-footer">
+        <div class="container footer">
+          <img src="./source/logo/logo_small.svg" alt="Random task logo"
+            class="footer-logo">
+          <section class="copyright">
+            <div class="left-side">
+              <p class="copyright-text">© 2020 Random Task</p>
+              <p class="disclaimer">We do not distribute or sell your data because
+                we simply don’t have it.</p>
             </div>
-            <div class="author">
-              <p class="role">JS Developer:</p>
-              <p class="name">Semyon Borisov</p>
+            <div class="right-side">
+              <div class="author">
+                <p class="role">Designer & Developer:</p>
+                <p class="name">Evgeniya Iakovleva</p>
+              </div>
+              <div class="author">
+                <p class="role">JS Developer:</p>
+                <a href="http://devsnice.github.io/" class="name" target="_blank">Semyon Borisov</a>
+              </div>
             </div>
-          </div>
-        </section>
-      </div>
-    </footer>
+          </section>
+        </div>
+      </footer>
+    </main>
   </body>
 </html>
