@@ -352,3 +352,130 @@ button {
     line-height: 17px;
     color: #333333;
 }
+
+/*
+    Sprite icons
+*/ 
+
+.bg-emoji {
+    background-image: url('../source/css_sprites.png');
+    height: 64px;
+    width: 64px;
+}
+
+.bg-emoji_broccoli {
+    background-position: -10px -10px;
+}
+
+.bg-emoji_avocado {
+    background-position: -94px -10px;
+}
+
+.bg-emoji_ball {
+    background-position: -10px -94px;
+}
+
+.bg-emoji_balloon {
+    background-position: -94px -94px;
+}
+
+.bg-emoji_beach {
+    background-position: -178px -10px;
+}
+
+.bg-emoji_bunny {
+    background-position: -178px -94px;
+}
+
+.bg-emoji_car {
+    background-position: -10px -178px;
+}
+
+.bg-emoji_chinese_devil {
+    background-position: -94px -178px;
+}
+
+.bg-emoji_cookie {
+    background-position: -178px -178px;
+}
+
+.bg-emoji_devil {
+    background-position: -262px -10px;
+}
+
+.bg-emoji_doggo {
+    background-position: -262px -94px;
+}
+
+.bg-emoji_flover {
+    background-position: -10px -262px;
+}
+
+.bg-emoji_fries {
+     background-position: -94px -262px;
+}
+
+.bg-emoji_ghost {
+    background-position: -178px -262px;
+}
+
+.bg-emoji_love {
+    background-position: -262px -262px;
+}
+
+.bg-emoji_magician {
+    background-position: -346px -10px;
+}
+
+.bg-emoji_magin {
+    background-position: -346px -94px;
+}
+
+.bg-emoji_monkey_ears {
+    background-position: -346px -178px;
+}
+
+.bg-emoji_monkey_eyes {
+    background-position: -346px -262px;
+}
+
+.bg-emoji_monkey_mouth {
+    background-position: -10px -346px;
+}
+
+.bg-emoji_pasta {
+    background-position: -94px -346px;
+}
+
+
+.bg-emoji_pizza {
+    background-position: -178px -346px;
+}
+
+.bg-emoji_plane {
+    background-position: -262px -346px;
+}
+
+.bg-emoji_prawn {
+    background-position: -346px -346px;
+}
+
+.bg-emoji_robot {
+    background-position: -430px -10px;
+}
+
+.bg-emoji_shy {
+    background-position: -430px -94px;
+}
+
+.bg-emoji_spok {
+    background-position: -430px -178px;
+}
+
+.bg-emoji_stars {
+    background-position: -430px -262px;
+}
+
+.bg-emoji_unicorn {
+    background-position: -430px -346px;
+}
