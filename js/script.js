@@ -1,36 +1,38 @@
 const iconImageClasses = [
-  "bg-emoji_broccoli",
-  "bg-emoji_avocado",
-  "bg-emoji_ball",
-  "bg-emoji_balloon",
-  "bg-emoji_beach",
-  "bg-emoji_bunny",
-  "bg-emoji_car",
-  "bg-emoji_chinese_devil",
-  "bg-emoji_cookie",
-  "bg-emoji_devil",
-  "bg-emoji_doggo",
-  "bg-emoji_flover",
-  "bg-emoji_fries",
-  "bg-emoji_ghost",
-  "bg-emoji_love",
-  "bg-emoji_magician",
-  "bg-emoji_magin",
-  "bg-emoji_monkey_ears",
-  "bg-emoji_monkey_eyes",
-  "bg-emoji_monkey_mouth",
-  "bg-emoji_pasta",
-  "bg-emoji_pizza",
-  "bg-emoji_plane",
-  "bg-emoji_prawn",
-  "bg-emoji_robot",
-  "bg-emoji_shy",
-  "bg-emoji_spok",
-  "bg-emoji_stars",
-  "bg-emoji_unicorn"
+  "bg-no_speak",
+  "bg-flower",
+  "bg-focus",
+  "bg-fries",
+  "bg-ghost",
+  "bg-love",
+  "bg-magic",
+  "bg-no_hear",
+  "bg-no_see",
+  "bg-palm",
+  "bg-pasta",
+  "bg-pizza",
+  "bg-plane",
+  "bg-prawn",
+  "bg-robot",
+  "bg-shy",
+  "bg-spok",
+  "bg-star_eyes",
+  "bg-unicorn",
+  "bg-avo",
+  "bg-ball",
+  "bg-balloon",
+  "bg-broccoli",
+  "bg-bunny",
+  "bg-car",
+  "bg-chinese_devil",
+  "bg-cookie",
+  "bg-devil",
+  "bg-doggo",
+  "bg-eyes"
 ];
 
 const randomNumber = maxNumber => Math.round(Math.random() * maxNumber);
+const defaultTimeout = 350;
 
 const iconAnimation = (icons, iconIndex, additionalTimeout) => {
   const icon = icons[iconIndex];
@@ -40,7 +42,7 @@ const iconAnimation = (icons, iconIndex, additionalTimeout) => {
       const randomIcon = iconImageClasses[randomNumber(iconImageClasses.length - 1)];
 
       icon.className = "bg-emoji " + randomIcon;
-    }, 250 + additionalTimeout);
+    }, defaultTimeout + additionalTimeout);
   }
 }
 
