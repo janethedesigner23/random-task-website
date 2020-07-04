@@ -266,10 +266,10 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 160px;
 }
 
 .callout {
-    margin-top: 198px;
     margin-bottom: 50px;
     font-family: 'PT Sans', sans-serif;
     font-size: 46px;
@@ -282,9 +282,10 @@ button {
 .emoji-row {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
     width: 310px;
-    margin-bottom: 66px;
+    height: 90px;
+    margin-bottom: 36px;
 }
 
 .emoji {
@@ -366,4 +367,176 @@ button {
     font-weight: 400;
     line-height: 17px;
     color: #333333;
+}
+
+/*
+    Sprite icons
+*/ 
+
+.icon-search {
+    padding-top: 32px;
+    width: 64px;
+}
+
+.icon-search i {
+    display: block;
+    transform: scale(0.5);
+    position: relative;
+    top: -32px;
+    left: -32px;
+}
+
+.bg-emoji {
+    background-image: url('../source/css_sprites_tiny.png');
+    width: 128px;
+}
+
+.bg-no_speak {
+    height: 128px;
+    background-position: -158px -349px;
+}
+
+.bg-flower {
+    height: 132px;
+    background-position: -454px -10px;
+}
+
+.bg-focus {
+    height: 144px;
+    background-position: -10px -185px;
+}
+
+.bg-fries {
+    height: 136px;
+    background-position: -306px -185px;
+}
+
+.bg-ghost {
+    height: 116px;
+    background-position: -306px -649px;
+}
+
+.bg-love {
+    height: 128px;
+    background-position: -306px -349px;
+}
+
+.bg-magic {
+    height: 146px;
+    background-position: -158px -10px;
+}
+
+.bg-no_hear {
+    height: 128px;
+    background-position: -454px -349px;
+}
+
+.bg-no_see {
+    height: 128px;
+    background-position: -602px -10px;
+}
+
+.bg-palm {
+    height: 146px;
+    background-position: -306px -10px;
+}
+
+.bg-pasta {
+    height: 110px;
+    background-position: -454px -649px;
+}
+
+.bg-pizza {
+    height: 155px;
+    background-position: -10px -10px;
+}
+
+.bg-plane {
+    height: 128px;
+    background-position: -602px -158px;
+}
+
+.bg-prawn {
+    height: 118px;
+    background-position: -158px -649px;
+}
+
+.bg-robot {
+    height: 132px;
+    background-position: -454px -162px;
+}
+
+.bg-shy {
+    height: 128px;
+    background-position: -602px -306px;
+}
+
+.bg-spok {
+    height: 143px;
+    background-position: -158px -185px;
+}
+
+.bg-star_eyes {
+    height: 124px;
+    background-position: -750px -306px;
+}
+
+.bg-unicorn {
+    height: 128px;
+    background-position: -10px -501px;
+}
+
+.bg-avo {
+    height: 132px;
+    background-position: -10px -349px;
+}
+
+.bg-ball {
+    height: 128px;
+    background-position: -158px -501px;
+}
+
+.bg-balloon {
+    height: 128px;
+    background-position: -306px -501px;
+}
+
+.bg-broccoli {
+    height: 128px;
+    background-position: -454px -501px;
+}
+
+.bg-bunny {
+    height: 128px;
+    background-position: -602px -501px;
+}
+
+.bg-car {
+    height: 102px;
+    background-position: -602px -649px;
+}
+
+.bg-chinese_devil {
+    height: 128px;
+    background-position: -750px -10px;
+}
+
+.bg-cookie {
+    height: 121px;
+    background-position: -10px -649px;
+}
+
+.bg-devil {
+    height: 123px;
+    background-position: -750px -450px;
+}
+
+.bg-doggo {
+    height: 128px;
+    background-position: -750px -158px;
+}
+
+.bg-eyes {
+    height: 99px;
+    background-position: -750px -649px;
 }
